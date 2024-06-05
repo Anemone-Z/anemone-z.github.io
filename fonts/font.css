@@ -1,5 +1,5 @@
 @font-face {
     font-family: 'LXGWWenKaiMono';
     font-display: swap;
-    src: url('/ttf/LXGWWenKaiMono-Regular.ttf') format("truetype");
+    src: url('./LXGWWenKaiMono-Regular.ttf') format("truetype");
   }
