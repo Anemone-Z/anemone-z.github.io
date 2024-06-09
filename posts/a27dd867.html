@@ -1,0 +1,749 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Obsidian Theme - Minimal | Anemone's Blog</title><meta name="author" content="Anemone"><meta name="copyright" content="Anemone"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="简介 在 minimal.guide 找到详细文档。 Minimal 是一款适用于桌面、手机和平板电脑的 Obsidian 主题。使用配套插件 Minimal Theme Settings 和 Hider 可自定义颜色、字体等。荣获 Obsidian 官方最佳主题奖 ✨ 。 支持开发： 关注我 或 请我喝咖啡 。 屏幕截图背景样式包括低对比度、高对比度和真黑色选项，是 OLED 设备的理想选择。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Obsidian Theme - Minimal">
+<meta property="og:url" content="https://anemone-z.github.io/posts/a27dd867.html">
+<meta property="og:site_name" content="Anemone&#39;s Blog">
+<meta property="og:description" content="简介 在 minimal.guide 找到详细文档。 Minimal 是一款适用于桌面、手机和平板电脑的 Obsidian 主题。使用配套插件 Minimal Theme Settings 和 Hider 可自定义颜色、字体等。荣获 Obsidian 官方最佳主题奖 ✨ 。 支持开发： 关注我 或 请我喝咖啡 。 屏幕截图背景样式包括低对比度、高对比度和真黑色选项，是 OLED 设备的理想选择。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://anemone-z.github.io/img/avatar.jpg">
+<meta property="article:published_time" content="2024-04-29T07:29:38.000Z">
+<meta property="article:modified_time" content="2024-06-09T10:44:19.094Z">
+<meta property="article:author" content="Anemone">
+<meta property="article:tag" content="Theme">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://anemone-z.github.io/img/avatar.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://anemone-z.github.io/posts/a27dd867.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="/LXGW%20WenKai" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: Anemone","link":"链接: ","source":"来源: Anemone's Blog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'mediumZoom',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Obsidian Theme - Minimal',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-06-09 18:44:19'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css' /><meta name="generator" content="Hexo 7.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">9</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/collection"><i class="fa-fw fas fa-star"></i><span> 收藏夹</span></a></li><li><a class="site-page child" href="/panda/"><i class="fa-fw fas fa-wand-magic-sparkles"></i><span> 大熊猫</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw fas fa-comments"></i><span> 留言</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Anemone's Blog"><span class="site-name">Anemone's Blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/collection"><i class="fa-fw fas fa-star"></i><span> 收藏夹</span></a></li><li><a class="site-page child" href="/panda/"><i class="fa-fw fas fa-wand-magic-sparkles"></i><span> 大熊猫</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw fas fa-comments"></i><span> 留言</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Obsidian Theme - Minimal</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-04-29T07:29:38.000Z" title="发表于 2024-04-29 15:29:38">2024-04-29</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-06-09T10:44:19.094Z" title="更新于 2024-06-09 18:44:19">2024-06-09</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Obsidian/">Obsidian</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Obsidian/Theme/">Theme</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.9k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>6分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Obsidian Theme - Minimal"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p><img src="https://raw.githubusercontent.com/kepano/obsidian-minimal/master/cover.png" alt></p>
+<p>在 <a target="_blank" rel="noopener" href="https://minimal.guide">minimal.guide</a> 找到详细文档。</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/kepano/obsidian-minimal">Minimal</a> 是一款适用于桌面、手机和平板电脑的 <a target="_blank" rel="noopener" href="https://obsidian.md/">Obsidian</a> 主题。使用配套插件 <a target="_blank" rel="noopener" href="https://github.com/kepano/obsidian-minimal-settings">Minimal Theme Settings</a> 和 <a target="_blank" rel="noopener" href="https://github.com/kepano/obsidian-hider">Hider</a> 可自定义颜色、字体等。荣获 Obsidian 官方<a target="_blank" rel="noopener" href="https://forum.obsidian.md/t/best-of-2020-awards-results/11217">最佳主题奖</a> ✨ 。</p>
+<p><strong>支持开发：</strong> <a target="_blank" rel="noopener" href="https://stephango.com/subscribe">关注我</a> 或 <a target="_blank" rel="noopener" href="https://www.buymeacoffee.com/kepano">请我喝咖啡</a> 。</p>
+<h1 id="屏幕截图"><a href="#屏幕截图" class="headerlink" title="屏幕截图"></a>屏幕截图</h1><p><strong>背景样式</strong>包括低对比度、高对比度和真黑色选项，是 OLED 设备的理想选择。</p>
+<p><img src="https://github.com/kepano/obsidian-minimal/blob/master/docs/Images/minimal-variants.png?raw=true" alt></p>
+<p>用于表格和卡片布局的<strong>辅助类</strong>可让您创建强大的工作流程。</p>
+<p><img src="https://github.com/kepano/obsidian-minimal/blob/master/docs/Images/minimal-movies.png?raw=true" alt></p>
+<p>将<strong>聚焦模式</strong>与<strong>图像网格</strong>和<strong>图像宽度</strong>选项结合起来，您就可以将<strong>聚焦模式</strong>与<strong>图像网格</strong>和<strong>图像宽度</strong>选项结合起来。</p>
+<p><img src="https://github.com/kepano/obsidian-minimal/blob/master/docs/Images/minimal-img-grid.png?raw=true" alt></p>
+<p>Minimal 包含对数十种流行插件的支持，如 <strong>Calendar</strong>、<strong>Kanban</strong>、<strong>Dataview</strong>、<strong>Outliner</strong>、<strong>Excalidraw</strong> <a href="#plugin-support">以及更多</a> 。</p>
+<p><img src="https://github.com/kepano/obsidian-minimal/blob/master/docs/Images/minimal-plugins.png?raw=true" alt></p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>1.打开 Obsidian <code>Setting</code> ；<br>2.进入 <code>Appearance</code> 并点击 <code>Manage</code> ；<br>3.在社区主题下搜索 <code>Minimal</code> 并点击 <code>Use</code> 。</p>
+<h2 id="安装配套插件"><a href="#安装配套插件" class="headerlink" title="安装配套插件"></a>安装配套插件</h2><p>1.转到 <code>Community plugins</code> 并关闭 <code>Restricted mode</code> ；<br>2.在社区插件下搜索 <code>Minimal Theme Settings</code> 并点击 <code>Install</code> ，然后点击 <code>Enable</code> 。</p>
+<p>有问题？加入官方<a target="_blank" rel="noopener" href="https://discord.gg/veuWUTm">Obsidian Discord</a>上的<a target="_blank" rel="noopener" href="https://discord.com/channels/686053708261228577/931008597557649410">Minimal channel</a>。</p>
+<h1 id="配套插件"><a href="#配套插件" class="headerlink" title="配套插件"></a>配套插件</h1><p><a target="_blank" rel="noopener" href="https://github.com/kepano/obsidian-minimal-settings">Minimal Theme Settings plugin</a> 允许您自定义配色方案、字体、<a href="#hotkeys">热键</a>，以及访问主要功能切换。强烈推荐所有 Minimal 用户使用该插件。</p>
+<p>建议使用 <a target="_blank" rel="noopener" href="https://github.com/kepano/obsidian-hider">Hider plugin</a> 隐藏 Obsidian UI 元素，如窗口边框、滚动条、工具提示等。使用 Hider 关闭主工具栏（又称应用功能区）时，可将鼠标悬停在窗口左下角边缘。</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/mgmeyers/obsidian-style-settings">Style Settings plugin</a> 可让您创建自定义配色方案。此插件为可选项。</p>
+<h1 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h1><p>可使用 <a target="_blank" rel="noopener" href="https://github.com/kepano/obsidian-minimal-settings">Minimal Theme Settings</a> 插件访问以下设置。下面的许多设置都可以通过 <a href="#hotkeys">热键</a>进行切换。</p>
+<h2 id="界面颜色和字体"><a href="#界面颜色和字体" class="headerlink" title="界面颜色和字体"></a>界面颜色和字体</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://minimal.guide/Features/Background+contrast">Background contrast</a> - 包括 OLED 设备的真黑暗色模式。</li>
+<li><a target="_blank" rel="noopener" href="https://minimal.guide/Features/Color+schemes">Color scheme</a> - 包括 Catppuccin、Dracula、Everforest、Gruvbox、macOS、Nord、Solarized <a href="#color-schemes">以及更多</a> 。</li>
+<li><a target="_blank" rel="noopener" href="https://minimal.guide/Features/Line+width">Line width </a> - 设置窗格内的正常线宽和最大线宽。</li>
+</ul>
+<p>你还可以使用 <a target="_blank" rel="noopener" href="https://github.com/mgmeyers/obsidian-style-settings">Style Settings plugin</a> 插件进行更深入的定制。</p>
+<h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://minimal.guide/Features/Text+labels+for+primary+navigation">Text labels for primary navigation</a> - 为左上角的导航添加文本标签，注意英语以外的语言需要翻译片段<a href="#localization">关于本地化的更多信息</a> 。</li>
+<li><a target="_blank" rel="noopener" href="https://minimal.guide/Features/Focus+mode">Focus mode</a> - 隐藏标题栏和状态栏。</li>
+<li><a target="_blank" rel="noopener" href="https://minimal.guide/Features/Colorful+frame">Colorful frame</a> - 在应用程序窗口顶部区域使用强调色。</li>
+<li><a target="_blank" rel="noopener" href="https://minimal.guide/Features/Colorful+headings">Colorful headings</a> - 为每个标题使用不同的颜色。</li>
+<li>隐藏工作区边框 - 去除分隔线，使外观更简约。</li>
+<li>修剪文件名 - 将文件名修剪为一行。</li>
+</ul>
+<h2 id="布局选项"><a href="#布局选项" class="headerlink" title="布局选项"></a>布局选项</h2><p>控制图像、表格和 iframe。这些设置也可以使用 <a href="#helper-filters-and-classes">helper classes</a>按文件启用。</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://minimal.guide/Block+types/Image+grids">Image grids</a> - 将连续的图像变成列。要创建新行，请在图片之间添加额外的换行符。</li>
+<li><a target="_blank" rel="noopener" href="https://minimal.guide/Features/Block+width">Block widths</a> - 按类型控制元素的宽度。</li>
+</ul>
+<h2 id="配色方案"><a href="#配色方案" class="headerlink" title="配色方案"></a>配色方案</h2><h3 id="预设配色方案"><a href="#预设配色方案" class="headerlink" title="预设配色方案"></a>预设配色方案</h3><p>Minimal 提供配色方案，可使用 <a target="_blank" rel="noopener" href="https://github.com/kepano/obsidian-minimal-settings">Minimal Theme Settings</a> 插件分别选择明暗模式。配色方案包括 Dracula、Everforest、Gruvbox、macOS、Nord、Notion、Solarized 和 Things。</p>
+<p><img src="https://github.com/kepano/obsidian-minimal/blob/master/docs/Images/minimal-color-schemes.gif?raw=true" alt="极简主题设置"></p>
+<h2 id="自定义配色方案"><a href="#自定义配色方案" class="headerlink" title="自定义配色方案"></a>自定义配色方案</h2><p>你可以使用 <a target="_blank" rel="noopener" href="https://github.com/mgmeyers/obsidian-style-settings">Style Settings plugin</a> 插件自定义配色方案。要更方便地查看更改，请使用命令调板（默认为 <code>CMD + P</code>）在新窗格中打开 Style Settings 。使用 Style Settings ，您可以自定义 Minimal 的颜色、字体大小、字体样式以及更多细节。</p>
+<p><img src="https://github.com/kepano/obsidian-minimal/blob/master/docs/Images/minimal-style-settings.gif?raw=true" alt="风格设置"></p>
+<h1 id="插件支持"><a href="#插件支持" class="headerlink" title="插件支持"></a>插件支持</h1><p>大多数插件都能很好地与 Minimal 配合使用，但以下插件受到了特别的关爱和关注：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/liamcain/obsidian-calendar-plugin">日历 Calendar</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/phibr0/obsidian-charts">图表 Charts</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/delashum/obsidian-checklist-plugin">检查事项 Checklist</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/blacksmithgu/obsidian-dataview">数据视图 Dataview</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/phibr0/obsidian-dictionary">字典 Dictionary</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/zsviczian/obsidian-excalidraw-plugin">绘图 Excalidraw</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/denolehov/obsidian-git">Git</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/kepano/obsidian-hider">隐藏 Hider</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/mgmeyers/obsidian-kanban">看板 Kanban</a></li>
+<li>地图<a target="_blank" rel="noopener" href="https://github.com/valentine195/obsidian-leaflet-plugin">传单</a> Leaflet for maps </li>
+<li><a target="_blank" rel="noopener" href="https://github.com/vslinko/obsidian-outliner">大纲视图 Outliner</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/chhoumann/quickadd">快速添加 QuickAdd</a></li>
+</ul>
+<h1 id="辅助过滤器和类"><a href="#辅助过滤器和类" class="headerlink" title="辅助过滤器和类"></a>辅助过滤器和类</h1><h1 id="图像过滤器"><a href="#图像过滤器" class="headerlink" title="图像过滤器"></a>图像过滤器</h1><p>添加图像滤镜可产生以下效果。使用方法是在图像链接的末尾添加过滤器名称，例如<code>![[image.jpeg#invert]]</code>。</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">过滤器</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>#invert</code></td>
+<td style="text-align:left">在暗色模式下反转图像——适用于浅色背景上的图表和手写体。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>#invertW</code></td>
+<td style="text-align:left">在浅色模式下反转图像——适用于深色背景上的图表和手写体。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>#circle</code></td>
+<td style="text-align:left">将图像裁剪成圆形</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>#outline</code></td>
+<td style="text-align:left">在图像周围添加轮廓</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="CSS-辅助类"><a href="#CSS-辅助类" class="headerlink" title="CSS 辅助类"></a>CSS 辅助类</h2><p>CSS 辅助类可以使用 <code>cssClasses</code> <a target="_blank" rel="noopener" href="https://help.obsidian.md/Advanced+topics/YAML+front+matter">YAML front matter key</a> 按文件添加。这些类是可组合的，因此您可以包含多个类来组合效果。</p>
+<p>例如，在文件顶部使用以下代码启用卡片布局： </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">cssClasses: cards</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h2 id="图像网格"><a href="#图像网格" class="headerlink" title="图像网格"></a>图像网格</h2><p>将连续的图片变成列。要创建新行，请在图片之间添加额外的换行符。<a target="_blank" rel="noopener" href="https://minimal.guide/Block+types/Image+grids">了解更多。</a></p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>类</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>img-grid</td>
+<td>启动图像网格</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="表格、图像和-iframe-的线宽控制"><a href="#表格、图像和-iframe-的线宽控制" class="headerlink" title="表格、图像和 iframe 的线宽控制"></a>表格、图像和 iframe 的线宽控制</h2><p>按类型控制元素的宽度。<a target="_blank" rel="noopener" href="https://github.com/kepano/obsidian-minimal/releases/tag/4.2.0">了解更多。</a></p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>类</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>table-100, img-100, iframe-100</td>
+<td>填充窗格宽度的 100%</td>
+</tr>
+<tr>
+<td>table-max, img-max, iframe-max</td>
+<td>填充最大线宽（默认88%）</td>
+</tr>
+<tr>
+<td>table-wide, img-wide, iframe-wide</td>
+<td>填充宽线宽度</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="卡片"><a href="#卡片" class="headerlink" title="卡片"></a>卡片</h2><p>使用 <code>cards</code> 可将 Dataview 表格转换为卡片。与表格宽度类兼容。 请注意，必须有 <code>cards</code> 才能使用其他类。<a href="[url](https://minimal.guide/Block+types/Cards">了解更多。</a>)</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>类</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>cards</code> (必填)</td>
+<td>将所有数据视图表设置为卡片布局</td>
+</tr>
+<tr>
+<td><code>cards-align-bottom</code></td>
+<td>将卡片的最后一个元素对齐到底部</td>
+</tr>
+<tr>
+<td><code>cards-cover</code></td>
+<td>调整图像大小以填充定义的空间</td>
+</tr>
+<tr>
+<td><code>cards-16-9</code></td>
+<td>将卡片中的图片调整为 16:9 的比例</td>
+</tr>
+<tr>
+<td><code>cards-1-1</code></td>
+<td>将卡片中的图片调整为 1:1 的比例（正方形）</td>
+</tr>
+<tr>
+<td><code>cards-2-1</code></td>
+<td>以 2:1 的比例调整卡片中的图像</td>
+</tr>
+<tr>
+<td><code>cards-2-3</code></td>
+<td>按 2:3 的比例调整卡片中的图像</td>
+</tr>
+<tr>
+<td><code>cards-cols-1</code> to <code>8</code></td>
+<td>强制指定列数（从 1 到 8）</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="表格和数据视图"><a href="#表格和数据视图" class="headerlink" title="表格和数据视图"></a>表格和数据视图</h2><p>控制表格的行和列样式。<a target="_blank" rel="noopener" href="https://github.com/kepano/obsidian-minimal/releases/tag/4.1.7">了解更多。</a></p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>类</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>table-nowrap</code></td>
+<td>在表格单元格中禁用换行</td>
+</tr>
+<tr>
+<td><code>table-wrap</code></td>
+<td>强制表格单元格换行</td>
+</tr>
+<tr>
+<td><code>table-numbers</code></td>
+<td>为表格添加行号</td>
+</tr>
+<tr>
+<td><code>table-tabular</code></td>
+<td>在表格中使用表格数字</td>
+</tr>
+<tr>
+<td><code>table-small</code></td>
+<td>在表格中使用小号字体</td>
+</tr>
+<tr>
+<td><code>table-tiny</code></td>
+<td>在表格中使用小号字体</td>
+</tr>
+<tr>
+<td><code>table-lines</code></td>
+<td>在所有表格单元格周围添加边框</td>
+</tr>
+<tr>
+<td><code>row-lines</code></td>
+<td>在表格行间添加边框</td>
+</tr>
+<tr>
+<td><code>col-lines</code></td>
+<td>在表格列之间添加边框</td>
+</tr>
+<tr>
+<td><code>row-alt</code></td>
+<td>为交替的表格行添加条纹背景</td>
+</tr>
+<tr>
+<td><code>col-alt</code></td>
+<td>为交替的表格列添加条纹背景</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="嵌入和反向夹杂"><a href="#嵌入和反向夹杂" class="headerlink" title="嵌入和反向夹杂"></a>嵌入和反向夹杂</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>类</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>embed-strict</code></td>
+<td>在文本流中无缝显示转包内容。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id="备用复选框"><a href="#备用复选框" class="headerlink" title="备用复选框"></a>备用复选框</h1><p>Minimal 支持多种复选框样式。通过这些样式，你可以调出未完成、已取消、已重新安排等任务。<a target="_blank" rel="noopener" href="https://minimal.guide/Block+types/Checklists">查看截图和详情</a></p>
+<p><img src="https://publish-01.obsidian.md/access/342b33803baa5ad0055c9141648edad3/Images/alt-checkboxes.png" alt></p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>- [ ]</code></td>
+<td>to-do 待办事项</td>
+</tr>
+<tr>
+<td><code>- [/]</code></td>
+<td>incomplete 未完成</td>
+</tr>
+<tr>
+<td><code>- [x]</code></td>
+<td>done 已完成</td>
+</tr>
+<tr>
+<td><code>- [-]</code></td>
+<td>canceled 取消</td>
+</tr>
+<tr>
+<td><code>- [&gt;]</code></td>
+<td>forwarded 已转发</td>
+</tr>
+<tr>
+<td><code>- [&lt;]</code></td>
+<td>scheduling 计划安排</td>
+</tr>
+<tr>
+<td><code>- [?]</code></td>
+<td>question 问题</td>
+</tr>
+<tr>
+<td><code>- [!]</code></td>
+<td>important 重要</td>
+</tr>
+<tr>
+<td><code>- [*]</code></td>
+<td>star 星级</td>
+</tr>
+<tr>
+<td><code>- [&quot;]</code></td>
+<td>quote 引用</td>
+</tr>
+<tr>
+<td><code>- [l]</code></td>
+<td>location 位置</td>
+</tr>
+<tr>
+<td><code>- [b]</code></td>
+<td>bookmark 书签</td>
+</tr>
+<tr>
+<td><code>- [i]</code></td>
+<td>information 信息</td>
+</tr>
+<tr>
+<td><code>- [S]</code></td>
+<td>savings 储蓄</td>
+</tr>
+<tr>
+<td><code>- [I]</code></td>
+<td>idea 想法</td>
+</tr>
+<tr>
+<td><code>- [p]</code></td>
+<td>pros 优点</td>
+</tr>
+<tr>
+<td><code>- [c]</code></td>
+<td>cons 缺点</td>
+</tr>
+<tr>
+<td><code>- [f]</code></td>
+<td>fire 火</td>
+</tr>
+<tr>
+<td><code>- [k]</code></td>
+<td>key 关键</td>
+</tr>
+<tr>
+<td><code>- [w]</code></td>
+<td>win 赢</td>
+</tr>
+<tr>
+<td><code>- [u]</code></td>
+<td>up 上</td>
+</tr>
+<tr>
+<td><code>- [d]</code></td>
+<td>down 下</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id="热键"><a href="#热键" class="headerlink" title="热键"></a>热键</h1><p>热键仅在使用 Minimal Theme Settings 插件时可用。</p>
+<h2 id="背景和边框"><a href="#背景和边框" class="headerlink" title="背景和边框"></a>背景和边框</h2><ul>
+<li>在明暗模式之间切换</li>
+<li>在浅色模式样式之间循环</li>
+<li>在深色模式样式之间循环</li>
+<li>切换侧边栏边框</li>
+</ul>
+<h2 id="布局控制"><a href="#布局控制" class="headerlink" title="布局控制"></a>布局控制</h2><ul>
+<li>切换图像网格</li>
+<li>在图像宽度选项之间循环</li>
+<li>在表格宽度选项之间切换</li>
+<li>在 iframe 宽度选项之间循环</li>
+</ul>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
+<li>切换焦点模式</li>
+<li>切换彩色标题</li>
+<li>增大或缩小正文字体大小</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://anemone-z.github.io">Anemone</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://anemone-z.github.io/posts/a27dd867.html">https://anemone-z.github.io/posts/a27dd867.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Theme/">Theme</a></div><div class="post_share"><div class="social-share" data-image="/img/avatar.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/dcb857dc.html" title="Obsidian Plugin - Paste Image Rename"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Obsidian Plugin - Paste Image Rename</div></div></a></div><div class="next-post pull-right"><a href="/posts/7d074082.html" title="Obsidian Plugin - Hider"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Obsidian Plugin - Hider</div></div></a></div></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="utterances-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Anemone</div><div class="author-info__description">You only live once.</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">9</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Anemone-Z"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Anemone-Z" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:camellia24@gmail.com" target="_blank" title="Email"><i class="fas fa-solid fa-envelope" style="color: #24292e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">Welcome to Anemone Z's Blog!</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AE%80%E4%BB%8B"><span class="toc-number">1.</span> <span class="toc-text">简介</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE"><span class="toc-number">2.</span> <span class="toc-text">屏幕截图</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-number">3.</span> <span class="toc-text">安装</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E4%B8%BB%E9%A2%98"><span class="toc-number">3.1.</span> <span class="toc-text">安装主题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E9%85%8D%E5%A5%97%E6%8F%92%E4%BB%B6"><span class="toc-number">3.2.</span> <span class="toc-text">安装配套插件</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%85%8D%E5%A5%97%E6%8F%92%E4%BB%B6"><span class="toc-number">4.</span> <span class="toc-text">配套插件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE"><span class="toc-number">5.</span> <span class="toc-text">设置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%95%8C%E9%9D%A2%E9%A2%9C%E8%89%B2%E5%92%8C%E5%AD%97%E4%BD%93"><span class="toc-number">5.1.</span> <span class="toc-text">界面颜色和字体</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8A%9F%E8%83%BD"><span class="toc-number">5.1.1.</span> <span class="toc-text">功能</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%83%E5%B1%80%E9%80%89%E9%A1%B9"><span class="toc-number">5.2.</span> <span class="toc-text">布局选项</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E8%89%B2%E6%96%B9%E6%A1%88"><span class="toc-number">5.3.</span> <span class="toc-text">配色方案</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%84%E8%AE%BE%E9%85%8D%E8%89%B2%E6%96%B9%E6%A1%88"><span class="toc-number">5.3.1.</span> <span class="toc-text">预设配色方案</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E8%89%B2%E6%96%B9%E6%A1%88"><span class="toc-number">5.4.</span> <span class="toc-text">自定义配色方案</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8F%92%E4%BB%B6%E6%94%AF%E6%8C%81"><span class="toc-number">6.</span> <span class="toc-text">插件支持</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BE%85%E5%8A%A9%E8%BF%87%E6%BB%A4%E5%99%A8%E5%92%8C%E7%B1%BB"><span class="toc-number">7.</span> <span class="toc-text">辅助过滤器和类</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%BE%E5%83%8F%E8%BF%87%E6%BB%A4%E5%99%A8"><span class="toc-number">8.</span> <span class="toc-text">图像过滤器</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#CSS-%E8%BE%85%E5%8A%A9%E7%B1%BB"><span class="toc-number">8.1.</span> <span class="toc-text">CSS 辅助类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E5%83%8F%E7%BD%91%E6%A0%BC"><span class="toc-number">8.2.</span> <span class="toc-text">图像网格</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A1%A8%E6%A0%BC%E3%80%81%E5%9B%BE%E5%83%8F%E5%92%8C-iframe-%E7%9A%84%E7%BA%BF%E5%AE%BD%E6%8E%A7%E5%88%B6"><span class="toc-number">8.3.</span> <span class="toc-text">表格、图像和 iframe 的线宽控制</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%A1%E7%89%87"><span class="toc-number">8.4.</span> <span class="toc-text">卡片</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A1%A8%E6%A0%BC%E5%92%8C%E6%95%B0%E6%8D%AE%E8%A7%86%E5%9B%BE"><span class="toc-number">8.5.</span> <span class="toc-text">表格和数据视图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B5%8C%E5%85%A5%E5%92%8C%E5%8F%8D%E5%90%91%E5%A4%B9%E6%9D%82"><span class="toc-number">8.6.</span> <span class="toc-text">嵌入和反向夹杂</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%A4%87%E7%94%A8%E5%A4%8D%E9%80%89%E6%A1%86"><span class="toc-number">9.</span> <span class="toc-text">备用复选框</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%83%AD%E9%94%AE"><span class="toc-number">10.</span> <span class="toc-text">热键</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%83%8C%E6%99%AF%E5%92%8C%E8%BE%B9%E6%A1%86"><span class="toc-number">10.1.</span> <span class="toc-text">背景和边框</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%83%E5%B1%80%E6%8E%A7%E5%88%B6"><span class="toc-number">10.2.</span> <span class="toc-text">布局控制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B6%E4%BB%96"><span class="toc-number">10.2.1.</span> <span class="toc-text">其他</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/895b72f0.html" title="Obsidian Plugin - Calendar">Obsidian Plugin - Calendar</a><time datetime="2024-06-09T10:48:44.000Z" title="发表于 2024-06-09 18:48:44">2024-06-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/af5eb677.html" title="Github + Hexo + Butterfly 搭建博客（四） - Butterfly 主题！">Github + Hexo + Butterfly 搭建博客（四） - Butterfly 主题！</a><time datetime="2024-06-05T10:26:40.000Z" title="发表于 2024-06-05 18:26:40">2024-06-05</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/ca931cb7.html" title="Github + Hexo + Butterfly 搭建博客（三） - Hexo 部署！">Github + Hexo + Butterfly 搭建博客（三） - Hexo 部署！</a><time datetime="2024-06-05T10:23:42.000Z" title="发表于 2024-06-05 18:23:42">2024-06-05</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/2305a1f0.html" title="Github + Hexo + Butterfly 搭建博客（二） - Hexo 启动！">Github + Hexo + Butterfly 搭建博客（二） - Hexo 启动！</a><time datetime="2024-06-05T10:20:46.000Z" title="发表于 2024-06-05 18:20:46">2024-06-05</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/1f3d8519.html" title="Github + Hexo + Butterfly 搭建博客（一） - 欢迎！">Github + Hexo + Butterfly 搭建博客（一） - 欢迎！</a><time datetime="2024-06-05T09:59:46.000Z" title="发表于 2024-06-05 17:59:46">2024-06-05</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2024 By Anemone</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Welcome to Anemone Z's Blog!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="/js/tw_cn.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"><script>(() => {
+  const loadUtterances = () => {
+    let ele = document.createElement('script')
+    ele.id = 'utterances_comment'
+    ele.src = 'https://utteranc.es/client.js'
+    ele.setAttribute('repo', 'Anemone-Z/anemone-z.blog.comments')
+    ele.setAttribute('issue-term', 'pathname')
+    const nowTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'photon-dark' : 'github-light'
+    ele.setAttribute('theme', nowTheme)
+    ele.crossOrigin = 'anonymous'
+    ele.async = true
+    document.getElementById('utterances-wrap').appendChild(ele)
+  }
+
+  const utterancesTheme = theme => {
+    const iframe = document.querySelector('.utterances-frame')
+    if (iframe) {
+      const theme = theme === 'dark' ? 'photon-dark' : 'github-light'
+      const message = {
+        type: 'set-theme',
+        theme: theme
+      };
+      iframe.contentWindow.postMessage(message, 'https://utteranc.es');
+    }
+  }
+
+  btf.addGlobalFn('themeChange', utterancesTheme, 'utterances')
+
+  if ('Utterances' === 'Utterances' || !false) {
+    if (false) btf.loadComment(document.getElementById('utterances-wrap'), loadUtterances)
+    else loadUtterances()
+  } else {
+    window.loadOtherComment = loadUtterances
+  }
+})()</script></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const findTrueUrl = (array) => {
+    Promise.all(array.map(item =>
+      fetch(item.url).then(resp => resp.json()).then(data => {
+        let urlArray = data.body ? data.body.match(/(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?/ig) : []
+        if (!Array.isArray(urlArray) || urlArray.length === 0) {
+          urlArray = [`${data.html_url}`]
+        }
+        if (data.user.login === 'utterances-bot') {
+          return urlArray.pop()
+        } else {
+          return urlArray.shift()
+        }
+      })
+    )).then(res => {
+        array = array.map((i,index)=> {
+          return {
+            ...i,
+            url: res[index]
+          }
+        })
+
+        saveToLocal.set('github-newest-comments', JSON.stringify(array), 10/(60*24))
+        generateHtml(array)
+    });
+  }
+
+  const getComment = () => {
+    fetch('https://api.github.com/repos/Anemone-Z/anemone-z.blog.comments/issues/comments?sort=updated&direction=desc&per_page=6&page=1',{
+      "headers": {
+        Accept: 'application/vnd.github.v3.html+json'
+      }
+    })
+      .then(response => response.json())
+      .then(data => {
+        const githubArray = data.map(item => {
+          return {
+            'avatar': item.user.avatar_url,
+            'content': changeContent(item.body_html || item.body),
+            'nick': item.user.login,
+            'url': item.issue_url,
+            'date': item.updated_at,
+            'githubUrl': item.html_url
+          }
+        })
+        findTrueUrl(githubArray)
+      }).catch(e => {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      })
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
+        }
+
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
+        </div></div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom && ($dom.innerHTML= result)
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('github-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="true"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/metingjs/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["link[rel=\"canonical\"]","meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>
