@@ -1452,8 +1452,8 @@ canvas:not(#ribbon-canvas),
   --global-font-size: 14px;
   --global-bg: #fff;
   --font-color: #4c4948;
-  --hr-border: #a4d8fa;
-  --hr-before-color: #80c8f8;
+  --hr-border: #c2e0f4;
+  --hr-before-color: #aad4f0;
   --search-bg: #f6f8fa;
   --search-input-color: #4c4948;
   --search-a-color: #4c4948;
@@ -2608,7 +2608,7 @@ figure.highlight pre .javascript .function {
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-title .sticky {
   margin-right: 10px;
-  color: #ff7242;
+  color: #82e0aa;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -3377,10 +3377,10 @@ h1.page-title + .tag-cloud-list {
   background: #f6f8fa;
 }
 #post-comment .comment-head .comment-switch .first-comment {
-  color: #49b1f5;
+  color: #85c1e9;
 }
 #post-comment .comment-head .comment-switch .second-comment {
-  color: #ff7242;
+  color: #82e0aa;
 }
 #post-comment .comment-head .comment-switch #switch-btn {
   position: relative;
@@ -3389,7 +3389,7 @@ h1.page-title + .tag-cloud-list {
   width: 42px;
   height: 22px;
   border-radius: 34px;
-  background-color: #49b1f5;
+  background-color: #85c1e9;
   vertical-align: middle;
   cursor: pointer;
   -webkit-transition: 0.4s;
@@ -3424,7 +3424,7 @@ h1.page-title + .tag-cloud-list {
   display: none;
 }
 #post-comment.move #switch-btn {
-  background-color: #ff7242;
+  background-color: #82e0aa;
 }
 #post-comment.move #switch-btn:before {
   -webkit-transform: translateX(20px);
@@ -4027,7 +4027,7 @@ h1.page-title + .tag-cloud-list {
   overflow-wrap: break-word;
 }
 #article-container a {
-  color: #49b1f5;
+  color: #85c1e9;
 }
 #article-container a:hover {
   text-decoration: underline;
