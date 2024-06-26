@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>计算机教育中缺失的一课（The Missing Semester of Your CS Education）</title>
+      <link href="/posts/8d3b0811.html"/>
+      <url>/posts/8d3b0811.html</url>
+      
+        <content type="html"><![CDATA[<p>参考自 <a href="https://missing-semester-cn.github.io/">https://missing-semester-cn.github.io/</a> 。</p><h1 id="计算机教育中缺失的一课"><a href="#计算机教育中缺失的一课" class="headerlink" title="计算机教育中缺失的一课"></a>计算机教育中缺失的一课</h1><p>大学里的计算机课程通常专注于讲授从操作系统到机器学习这些学院派的课程或主题，而对于如何精通工具这一主题则往往会留给学生自行探索。在这个系列课程中，我们讲授命令行、强大的文本编辑器的使用、使用版本控制系统提供的多种特性等等。学生在他们受教育阶段就会和这些工具朝夕相处（在他们的职业生涯中更是这样）。</p><p>因此，花时间打磨使用这些工具的能力并能够最终熟练地、流畅地使用它们是非常有必要的。</p><p>精通这些工具不仅可以帮助您更快的使用工具完成任务，并且可以帮助您解决在之前看来似乎无比复杂的问题。</p><p>关于 <a href>开设此课程的动机</a> 。</p><h1 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h1><div class="checkbox"><input type="radio">            <p>纯文本测试</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>支持简单的 markdown 语法</p>            </div><div class="checkbox red"><input type="radio">            <p>支持自定义颜色</p>            </div><div class="checkbox green"><input type="radio">            <p>绿色</p>            </div><div class="checkbox yellow"><input type="radio">            <p>黄色</p>            </div><div class="checkbox cyan"><input type="radio">            <p>青色</p>            </div><div class="checkbox blue"><input type="radio">            <p>蓝色</p>            </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> The Missing Semester </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> The Missing Semester </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Github + Hexo + Butterfly 搭建博客（四） - Butterfly 主题！</title>
       <link href="/posts/af5eb677.html"/>
       <url>/posts/af5eb677.html</url>
