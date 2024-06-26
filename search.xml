@@ -4,25 +4,63 @@
   
     
     <entry>
-      <title>计算机教育中缺失的一课（The Missing Semester of Your CS Education）</title>
-      <link href="/posts/8d3b0811.html"/>
-      <url>/posts/8d3b0811.html</url>
+      <title>课程概览与 Shell</title>
+      <link href="/posts/60db1b39.html"/>
+      <url>/posts/60db1b39.html</url>
       
-        <content type="html"><![CDATA[<p>参考自 <a href="https://missing-semester-cn.github.io/">https://missing-semester-cn.github.io/</a> 。</p><h1 id="计算机教育中缺失的一课"><a href="#计算机教育中缺失的一课" class="headerlink" title="计算机教育中缺失的一课"></a>计算机教育中缺失的一课</h1><p>大学里的计算机课程通常专注于讲授从操作系统到机器学习这些学院派的课程或主题，而对于如何精通工具这一主题则往往会留给学生自行探索。在这个系列课程中，我们讲授命令行、强大的文本编辑器的使用、使用版本控制系统提供的多种特性等等。学生在他们受教育阶段就会和这些工具朝夕相处（在他们的职业生涯中更是这样）。</p><p>因此，花时间打磨使用这些工具的能力并能够最终熟练地、流畅地使用它们是非常有必要的。</p><p>精通这些工具不仅可以帮助您更快的使用工具完成任务，并且可以帮助您解决在之前看来似乎无比复杂的问题。</p><p>关于 <a href>开设此课程的动机</a> 。</p><h1 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h1><div class="checkbox"><input type="radio">            <p>纯文本测试</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>支持简单的 markdown 语法</p>            </div><div class="checkbox red"><input type="radio">            <p>支持自定义颜色</p>            </div><div class="checkbox green"><input type="radio">            <p>绿色</p>            </div><div class="checkbox yellow"><input type="radio">            <p>黄色</p>            </div><div class="checkbox cyan"><input type="radio">            <p>青色</p>            </div><div class="checkbox blue"><input type="radio">            <p>蓝色</p>            </div>]]></content>
+        <content type="html"><![CDATA[<div style="padding-top: 56.25%;position: relative;"><iframe src="https://www.youtube.com/embed/Z56Jmr9Z34Q?si=Vqf4OeVWdhJXf8Uc" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute;height: 100%;width: 100%;top: 0;left: 0;"></iframe></div><p>参考自 <a href="https://missing-semester-cn.github.io/2020/course-shell/">https://missing-semester-cn.github.io/2020/course-shell/</a> 。</p><p>感谢 <a href="https://www.youtube.com/@litchyarn"><img src="https://yt3.ggpht.com/L2ssH2noSSQOjb5WmfBUZnsmBgB3zCXrxLBTj2_gPVuh0f5lpo_6joGvjEcCfc0yjT_ynEU9Jg=s88-c-k-c0x00ffffff-no-rj" alt></a> 的目录。</p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=364s">6:04</a> shell prompt </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=392s">6:32</a> curstermizing shell </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=423s">7:03</a> $date </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=439s">7:19</a> $echo </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=449s">7:29</a> $echo hello </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=466s">7:46</a> $echo “Hello world” </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=521s">8:41</a> </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=601s">10:01</a> environment variable </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=617s">10:17</a> $echo $PATH </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=661s">11:01</a> $ which echo </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=750s">12:30</a> relative path </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=770s">12:50</a> $pwd (print working directory) </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=804s">13:24</a> cd /home (change my directory) </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=838s">13:58</a> dot </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=903s">15:03</a> ../../../../../ </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=980s">16:20</a> $ls </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1035s">17:15</a> ~ tild </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1056s">17:36</a> - dash $ cd - </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1209s">20:09</a> d means directory </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1292s">21:32</a> read, write, execute </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1472s">24:32</a> mv (rename, move) </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1520s">25:20</a> cp (copy from, to) </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1550s">25:50</a> rm (remove) </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1575s">26:15</a> rmdir, mkdir (remove directory, make directory) </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1610s">26:50</a> man (manual) </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1675s">27:55</a> Ctrl+L (clear shall) </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1710s">28:30</a> input and output </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1770s">29:30</a> $echo hello &gt; hello.txt </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1799s">29:59</a> $cat hello.txt </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1810s">30:10</a> $cat &lt; hello.txt </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1843s">30:43</a> $cat &lt; hello.txt &gt; hello2.txt </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1875s">31:15</a> $&gt;&gt;^C </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1910s">31:50</a> pipe </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=1940s">32:20</a> tail<br>$tail -nl<br>$ls -l / | tail -nl<br>$ls -l / | tail -nl &gt; ls.txt </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=2015s">33:35</a> curl<br>$curl —head —silent google.com<br>$curl —head —silent google.com | grep -i content-length<br>$curl —head —silent google.com | grep -i content-length | cut —delimetr = ‘ ‘ -f2 </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=2199s">36:39</a> $sudo (super user) </p><p><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=2282s">38:02</a> $cat brightness<br>$sudo echo 500 &gt; brightness</p>]]></content>
       
       
       <categories>
           
-          <category> The Missing Semester </category>
+          <category> The Missing Semester of Your CS Education </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> The Missing Semester </tag>
+            <tag> Shell </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>开设此课程的动机</title>
+      <link href="/posts/bfa52136.html"/>
+      <url>/posts/bfa52136.html</url>
+      
+        <content type="html"><![CDATA[<p>参考自 <a href="https://missing-semester-cn.github.io/about/">https://missing-semester-cn.github.io/about/</a> 。</p><h1 id="开设此课程的动机"><a href="#开设此课程的动机" class="headerlink" title="开设此课程的动机"></a>开设此课程的动机</h1><p>在传统的计算机科学课程中，从操作系统、编程语言到机器学习，这些高大上课程和主题已经非常多了。然而有一个至关重要的主题却很少被专门讲授，而是留给学生们自己去探索。这部分内容就是：<strong>精通工具</strong>。</p><h1 id="计算机教育中缺失的一课"><a href="#计算机教育中缺失的一课" class="headerlink" title="计算机教育中缺失的一课"></a>计算机教育中缺失的一课</h1><p>为了解决这个问题，麻省理工学院设了一个课程《The Missing Semester of Your CS Education》（《计算机教育中缺失的一课》），涵盖各项对成为高效率计算机科学家或程序员至关重要的主题。这个课程实用且具有很强的实践性，提供了各种能够立即广泛应用解决问题的趁手工具指导。</p><h1 id="课程示例"><a href="#课程示例" class="headerlink" title="课程示例"></a>课程示例</h1><p>以下是一些具体的课程示例：</p><h2 id="命令行与-shell-工具"><a href="#命令行与-shell-工具" class="headerlink" title="命令行与 shell 工具"></a>命令行与 shell 工具</h2><p>如何使用别名、脚本和构建系统来自动化执行通用重复的任务。不再总是从文档中拷贝粘贴命令。不要再“逐个执行这 15 个命令”，不要再“你忘了执行这个命令”、“你忘了传那个参数”，类似的对话不要再有了。</p><p>例如，快速搜索历史记录可以节省大量时间。在下面这个示例中，我们展示了如何通过 <code>convert</code> 命令在历史记录中跳转的一些技巧。</p><video src="https://missing-semester-cn.github.io/static/media/demos/history.mp4" type="video/mp4" controls="controls" width="100%" height="100%"></video><h2 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h2><p>如何<strong>正确地</strong>使用<strong>版本控制</strong>，利用它避免尴尬的情况发生。与他人协作，并且能够快速定位有问题的提交不再大量注释代码。不再为解决 bug 而找遍所有代码。不再“我去，刚才是删了有用的代码？！”。我们将教你如何通过拉取 git 请求来为他人的项目贡献代码。</p><p>下面这个示例中，我们使用 <code>git bisect</code> 来定位哪个提交破坏了单元测试，并且通过 <code>git revert</code> 来进行修复。</p><video src="https://missing-semester-cn.github.io/static/media/demos/git.mp4" type="video/mp4" controls="controls" width="100%" height="100%"></video><h2 id="文本编辑"><a href="#文本编辑" class="headerlink" title="文本编辑"></a>文本编辑</h2><p>不论是本地还是远程，如何<strong>通过命令行高效地编辑文件</strong>，并且充分利用编辑器特性。不再来回复制文件。不再重复编辑文件。</p><p>Vim 的<strong>宏</strong>是它最好的特性之一，在下面这个示例中，我们使用嵌套的 Vim 宏快速地将 html 表格转换成了 csv 格式。</p><video src="https://missing-semester-cn.github.io/static/media/demos/vim.mp4" type="video/mp4" controls="controls" width="100%" height="100%"></video><h2 id="远程服务器"><a href="#远程服务器" class="headerlink" title="远程服务器"></a>远程服务器</h2><p><strong>使用 SSH 密钥连接远程机器</strong>进行工作时如何保持连接，并且让终端能够复用。不再为了仅执行个别命令总是打开许多命令行终端。不再每次连接都总输入密码。不再因为网络断开或必须重启笔记本时就丢失全部上下文。</p><p>以下示例，我们使用 <code>tmux</code> 来保持远程服务器的会话存在，并使用 <code>mosh</code> 来支持网络漫游和断开连接。</p><video src="https://missing-semester-cn.github.io/static/media/demos/ssh.mp4" type="video/mp4" controls="controls" width="100%" height="100%"></video><h2 id="查找文件"><a href="#查找文件" class="headerlink" title="查找文件"></a>查找文件</h2><p>如何<strong>快速查找你需要的文件</strong>。不再挨个点击项目中的文件，直到找到你所需的代码。</p><p>以下示例，我们通过 <code>fd</code> 快速查找文件，通过 <code>rg</code> 找代码片段。我们也用到了 <code>fasd</code> 快速 <code>cd</code> 并 <code>vim</code> 最近/常用的文件/文件夹。</p><video src="https://missing-semester-cn.github.io/static/media/demos/find.mp4" type="video/mp4" controls="controls" width="100%" height="100%"></video><h2 id="数据处理"><a href="#数据处理" class="headerlink" title="数据处理"></a>数据处理</h2><p>如何通过命令行直接轻松快速地修改、查看、解析、绘制和计算数据和文件。不再从日志文件拷贝粘贴。不再手动统计数据。不再用电子表格画图。</p><h2 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h2><p>如何使用虚拟机尝试新操作系统，隔离无关的项目，并且保持宿主机整洁。不再因为做安全实验而意外损坏你的计算机。不再有大量随机安装的不同版本软件包。</p><h2 id="安全"><a href="#安全" class="headerlink" title="安全"></a>安全</h2><p>如何在不泄露隐私的情况下畅游互联网。不再抓破脑袋想符合自己疯狂规则的密码。不再连接不安全的开放 WiFi 网络。不再传输未加密的信息。</p><h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>这 12 节课将包括但不限于以上内容，同时每堂课都提供了能帮助你熟悉这些工具的练手小测验。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> The Missing Semester of Your CS Education </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机教育中缺失的一课</title>
+      <link href="/posts/8d3b0811.html"/>
+      <url>/posts/8d3b0811.html</url>
+      
+        <content type="html"><![CDATA[<p>参考自 <a href="https://missing-semester-cn.github.io/">https://missing-semester-cn.github.io/</a> 。</p><h1 id="计算机教育中缺失的一课"><a href="#计算机教育中缺失的一课" class="headerlink" title="计算机教育中缺失的一课"></a>计算机教育中缺失的一课</h1><p>大学里的计算机课程通常专注于讲授从操作系统到机器学习这些学院派的课程或主题，而对于如何精通工具这一主题则往往会留给学生自行探索。在这个系列课程中，我们讲授命令行、强大的文本编辑器的使用、使用版本控制系统提供的多种特性等等。学生在他们受教育阶段就会和这些工具朝夕相处（在他们的职业生涯中更是这样）。</p><p>因此，花时间打磨使用这些工具的能力并能够最终熟练地、流畅地使用它们是非常有必要的。</p><p>精通这些工具不仅可以帮助您更快的使用工具完成任务，并且可以帮助您解决在之前看来似乎无比复杂的问题。</p><p>关于 <a href="https://anemone-z.github.io/posts/bfa52136.html">开设此课程的动机</a> 。</p><h1 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h1><div class="checkbox"><input type="checkbox">            <p><a href="https://missing-semester-cn.github.io/2020/course-shell/">课程概览与 shell</a></p>            </div><div class="checkbox"><input type="checkbox">            <p><a href="https://missing-semester-cn.github.io/2020/shell-tools/">Shell 工具和脚本</a></p>            </div><div class="checkbox"><input type="checkbox">            <p><a href="https://missing-semester-cn.github.io/2020/editors/">编辑器 (Vim)</a></p>            </div><div class="checkbox"><input type="checkbox">            <p><a href="https://missing-semester-cn.github.io/2020/data-wrangling/">数据整理</a></p>            </div><div class="checkbox"><input type="checkbox">            <p><a href="https://missing-semester-cn.github.io/2020/command-line/">命令行环境</a></p>            </div><div class="checkbox"><input type="checkbox">            <p><a href="https://missing-semester-cn.github.io/2020/version-control/">版本控制(Git)</a></p>            </div><div class="checkbox"><input type="checkbox">            <p><a href="https://missing-semester-cn.github.io/2020/debugging-profiling/">调试及性能分析</a></p>            </div><div class="checkbox"><input type="checkbox">            <p><a href="https://missing-semester-cn.github.io/2020/metaprogramming/">元编程</a></p>            </div><div class="checkbox"><input type="checkbox">            <p><a href="https://missing-semester-cn.github.io/2020/security/">安全和密码学</a></p>            </div><div class="checkbox"><input type="checkbox">            <p><a href="https://missing-semester-cn.github.io/2020/potpourri/">大杂烩</a></p>            </div><div class="checkbox"><input type="checkbox">            <p><a href="https://missing-semester-cn.github.io/2020/qa/">提问&amp;回答</a></p>            </div><p>讲座视频可以在 <a href="https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J">YouTube</a> 上找到。</p><h1 id="关于本课程"><a href="#关于本课程" class="headerlink" title="关于本课程"></a>关于本课程</h1><p>教员：本课程由 <a href="https://www.anishathalye.com/">Anish</a> 、 <a href="https://thesquareplanet.com/">Jon</a> 和 <a href="http://josejg.com/">Jose</a> 讲授。</p><p>问题：请通过 <a href="missing-semester@mit.edu">missing-semester@mit.edu</a> 联系我们。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> The Missing Semester of Your CS Education </category>
+          
+      </categories>
+      
       
     </entry>
     
@@ -38,7 +76,7 @@
       
       <categories>
           
-          <category> Project </category>
+          <category> Build a personal blog </category>
           
       </categories>
       
@@ -67,7 +105,7 @@
       
       <categories>
           
-          <category> Project </category>
+          <category> Build a personal blog </category>
           
       </categories>
       
@@ -96,7 +134,7 @@
       
       <categories>
           
-          <category> Project </category>
+          <category> Build a personal blog </category>
           
       </categories>
       
@@ -125,7 +163,7 @@
       
       <categories>
           
-          <category> Project </category>
+          <category> Build a personal blog </category>
           
       </categories>
       
